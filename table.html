@@ -16,6 +16,7 @@
   <div id="choose">
     <h3> Choose Your Table</h3>
   </div>
+
   <div class="circles">
     <div class="circleBase open" >1</div>
     <div class="circleBase reserved">2</div>
@@ -29,6 +30,17 @@
     <div class="circleBase reserved">10</div>
     <div class="circleBase open">11</div>
     <div class="circleBase reserved">12</div>
+  </div>
+
+  <form id="reservation">
+    <h2>New Reservation</h2>
+    <div name="myForm">
+      <input type="text" name="fname" placeholder="Full Name"><br>
+      <input type="text" name="phone" placeholder="Phone"><br>
+      <input type="number" name="amount" placeholder="Amount"><br>
+      <input type="submit" value="continue" id="submit" onsubmit="return false"><br>
+      <input type="submit" value="cancel" id="return">
+    </form>
   </div>
 
 </body>

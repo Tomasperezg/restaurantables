@@ -4,27 +4,26 @@
   });
 
 $( ".open" ).on( "click", function() {
-  alert("this table is available!");
-  let user = prompt("would you like to reserve this table?");
-  if(user === "yes"){
-    window.location.href = "index.html";
-
-  }
-  else if(user === "no"){
-    alert("thank you! Good bye!");
-
-  }
-  else{
-    alert("please, say yes or no!");
-  }
-
+  $("#reservation").show(1000);
 
 });
+$("#submit").on( "click", function(){
+  $(".open").css(({"background-color": "black", "color": "white"}));
 
+});
 });
 $(()=>{
   $("h2").hide().delay(1600).fadeIn(1200);
+  $("#reservation").hide();
 });
 $(()=>{
-  $("h3").hide().delay(1600).fadeIn(1200);
+  $("h3").hide().delay(1800).fadeIn(1400);
+});
+$('#myForm').submit(function() {
+    doSomething();
+});
+$(()=>{
+$("#return").on( "click", function(){
+  $("#reservation").hide();
+});
 });
