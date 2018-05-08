@@ -1,0 +1,98 @@
+#reservation{
+  text-align: center;
+  background-color: #708090;
+  margin-top: : 60px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 5px 10px #888888;
+  opacity: .9;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#submit {
+    background-color: #B0C4DE;
+    color: white;
+    padding: 15px 100px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+input[type=text], input[type=number] {
+  width: 200px;
+  padding: 12px 20px;
+  display: inline-grid;
+  border-style: solid;
+  border-top: black 1px;
+  margin: 10px;
+  border-right: black 1px;
+}
+#page1{
+  background-image: url(cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.tables{
+  text-align: center;
+}
+#page2{
+  background-image: url(cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#choose{
+  background-color: white;
+  text-align: center;
+  margin-top: 60px;
+  background-color: #708090;
+  opacity: .9;
+  top-margin: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.tables{
+  color: white;
+}
+
+.circleBase{
+  width: 70px;
+  height: 70px;
+  background: #708090;
+  border: 3px solid black;
+  border-radius: 50%;
+  opacity: .9;
+  min-width: 14px;
+  padding: 10px 3px 0 3px;
+  text-align: center;
+
+}
+.circles{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  justify-content: center;
+  margin: auto;
+  background-color: #708090;
+  text-align: center;
+  opacity: .9;
+
+}
+.open:hover{
+  cursor: pointer;
+  color: red;
+  background-color: black;
+}
+.reserved{
+  background-color: black;
+  color: white;
+}
+#submit:hover{
+  background-color: #F08080;
+  cursor: pointer;
+}
